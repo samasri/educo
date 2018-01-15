@@ -1,0 +1,46 @@
+body {
+	background-color: blue;
+}
+
+#content {
+	width: 800px;
+	margin: auto;
+}
+
+#educo { /*float:left;*/
+	
+}
+
+#title {
+	display: inline;
+	text-align: center;
+	margin-left: 50px;
+}
+
+#profile {
+	float: left;
+	margin: 10px;
+	width: 220px;
+	height: 220px;
+}
+
+#appointment {
+	width: 200px;
+	height: 50px;
+	background-color: gold;
+	float: left;
+}
+
+.course {
+	width: 300px;
+	height: 150px;
+	background-color: yellow;
+	float: left;
+	margin: 5px;
+	border-radius: 20px;
+}
+
+.course p {
+	margin: 5px;
+	padding: 0px;
+}

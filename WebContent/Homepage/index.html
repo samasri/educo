@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Educo</title>
+<link rel='stylesheet' type='text/css' href='/Educo/JSCSS/jquery-ui/jquery-ui.css'>
+<link rel="stylesheet" type="text/css" href="index.css">
+<link href="SignInPopup/popup.css" rel="stylesheet" type="text/css"
+	media="all" />
+<link href="login.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+
+<body>
+	<div id="content">
+		<!--HEADER-->
+		<div id="header">
+			<form method="post" id="login" action="/Educo/signin">
+
+				<input name="username" id="username" type="text"
+					placeholder="username"></input> <input name="password"
+					type="password" placeholder="password"></input> <input
+					class="login" type="submit" value="login"></input>
+			</form>
+		</div>
+
+		<div class="body">
+			<div class="left">
+				<a href='/Educo/HomePage'> <img src="logo.png" id="logo">
+				</a>
+			</div>
+
+			<div class="middle">
+				<img src="/Educo/Homepage/educo.png" id="educo">
+				<p id = "moto"><em>Surf the wave of education!</em></P>
+			</div>
+
+			<div class="right">
+				<form id="signup" action="">
+					<h3 class="signup" style="color: grey">
+						<strong>Sign up</strong>
+					</h3>
+					<input id='email' type="text" placeholder="Email"></input> 
+					<input id='phoneNumber' type="text" placeholder="Phone Number"></input>
+					 <input id='password' type="password" placeholder="Password"></input>
+					<input id='confirmPassword' type="password" placeholder="Re-enter Password"></input>
+					<a class="topopup">
+						<input class="login" type="submit" value="Sign Up"></input>
+					</a>
+					<!-- add the copyright at right position + symbol not working-->
+					<!-- add text from spmp(goals + moto)-->
+				</form>
+			</div>
+		</div>
+
+		<div class="bottom">
+			<img src="/Educo/Homepage/linewave.jpg" id="linewave">
+		</div>
+		Educo 2015 &#169;
+
+		<!--Popup div-->
+		<div id="toPopup">
+			<div class="close"></div>
+			<div id="popup_content">
+				<!--your content start-->
+				<div id="signAs">
+					<p id="signAsTutor">Tutor</p>
+					<p id="signAsStudent">Student</p>
+				</div>
+				<div id="extraInfo">
+					<p>We need some more info, since you're not an active AUB
+						student:</p>
+					<input id="name" type="text" placeholder="Name"></input>
+					 <input id="major" type="text" placeholder="Major"></input>
+					 <input id="signUpTutor" class="login" type="submit" value="Sign Up"></input>
+					
+				</div>
+			</div>
+			<!--your content end-->
+
+		</div>
+		<div class="loader"></div>
+		<div id="backgroundPopup"></div>
+		<!--end of popup div-->
+	</div>
+</body>
+<script src="jquery.js"></script>
+<script src='/Educo/JSCSS/jquery-ui/jquery-ui.js'></script>
+<script src="SignInPopup/popup.js"></script>
+<script src="index.js"></script>
+</html>

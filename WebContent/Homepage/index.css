@@ -1,0 +1,134 @@
+#content {
+	width: 1100px;
+	height: 500px;
+	background-color: white;
+	margin: auto;
+}
+
+.left {
+	position: relative;
+	float: left;
+	width: 17%;
+	height: 400px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.middle {
+	position: relative;
+	float: left;
+	width: 40%;
+	height: 400px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.right {
+	position: relative;
+	float: right;
+	margin-right: 140px;
+	width: 26%;
+	height: 400px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.bottom {
+	width: 83%;
+	height: 150px;
+	margin-bottom: 10px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.body {
+	width: 100%;
+	height: 420px;
+	position: relative;
+	color: red;
+}
+
+#logo {
+	height: 110px;
+	width: 110px padding-top :   165px;
+	float: right;
+}
+
+#login {
+	color: white;
+	float: right;
+	border-radius: 10px;
+	margin: 3px;
+	padding-top: 25px;
+	padding-right: 15px;
+	width: 400px;
+	display: inline;
+}
+
+#educo {
+	height: 160px;
+	width: 460px;
+	padding-top: 30px;
+}
+
+#signup {
+	float: right;
+	padding-top: 60px;
+	width: 200px;
+	margin: 20px 60px 10px 10px;
+}
+
+.signup {
+	color: 8B7E7E;
+	font-size: 30px;
+	margin: 10px 60px 10px 10px;
+}
+
+#extraInfo {
+	width: 200px;
+}
+
+#extraInfo input {
+	margin: 2px;
+}
+
+#signAs  p {
+	border-radius: 20px;
+	border: 2px solid black;
+	background-color: violet;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	font-size: 16pt;
+	margin-bottom: 5px;
+}
+
+#header {
+	background-color: #EFF5FB;
+	width: 80%;
+	height: 80px;
+	margin-top: -20px;
+	margin-bottom: 10px;
+	z-index: 1;
+	border-radius: 5px;
+	padding-left: 40px;
+}
+
+#linewave {
+	position: left;
+	width: 100%;
+	height: 90px :  
+	 padding-bottom :   10px;
+}
+
+#copyright {
+	margin: 0px 0px 0px 0px;
+}
+
+
+#moto{
+    font-family: Palatino, fantasy;
+    color: #541233;
+    font-size: 25px;
+    margin-left: 60px;
+} 

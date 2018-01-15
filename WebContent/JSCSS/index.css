@@ -1,0 +1,47 @@
+#content {
+	width: 800px;
+	background-color: #00004F;
+	margin: auto;
+}
+
+#logo {
+	height: 75px;
+	margin: 5px;
+}
+
+#login {
+	color: white;
+	float: right;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+#educo {
+	height: 100px;
+	margin: 50px;
+}
+
+#signup {
+	float: right;
+	width: 200px;
+	margin: 85px;
+}
+
+#extraInfo {
+	width: 200px;
+}
+
+#extraInfo input {
+	margin: 2px;
+}
+
+#signAs  p {
+	border-radius: 20px;
+	border: 2px solid black;
+	background-color: violet;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	font-size: 16pt;
+	margin-bottom: 5px;
+}
