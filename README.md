@@ -1,7 +1,7 @@
 # Educo
 
 # Motivation and Objective
-The website aims to connects students with private tutors in a convenient Facebook-like interface. A rating system is also implemented in order to highlight tutors with better tutoring skills.
+The website aims to connects students with private tutors in a convenient Facebook-like interface. A rating system is also implemented in order to highlight tutors with better tutoring skills. The project is tailored for the American University of Beirut (AUB) students and hence it has features cutomized for these students; such as checking that the user's email is part of the active students at AUB, or checking that the courses offered by the tutor are valid courses in the university.
 
 # How to reproduce the project on a Windows machine
 ## Prerequisits
@@ -16,7 +16,14 @@ EclipseEE and MySQL
 5. Assuming that the tomcat server accessed from the browser on _localhost_, the main page of  the web app can be accessed by visiting: _http://localhost//Educo//Homepage//_
 
 # Features
-Checks if the student is in AUB
-When a tutor wants to add a course, it has to be one of the courses of AUB
+Below are some of the significant functionality provided by our project:
+* Facilitate making appointments between students and tutors
+* Arranging the user's appointments in a visual calendar
+* Having a profile for each student and tutor
+* Rating system for tutors (being rated by students)
+* Offering a news feed for users to observe how their tutors are being rated, or how their 
+* Checks if user is in the American University of Beirut (AUB) before allowing them to register.
+* When adding a course, a tutor has to pick from a list of courses. The list is always synched with courses offerred at AUB.
+For the complete list of features, the [final report]() presented as part of the requirements to complete a university course.
 
-# Known bugs
+# Screenshots
