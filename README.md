@@ -1,7 +1,7 @@
 # Educo
 
 # Motivation and Objective
-The website aims to connects students with private tutors in a convenient Facebook-like interface. A rating system is also implemented in order to highlight tutors with better tutoring skills. The project is tailored for the American University of Beirut (AUB) students and hence it has features cutomized for these students; such as checking that the user's email is part of the active students at AUB, or checking that the courses offered by the tutor are valid courses in the university.
+The website aims to connects students with private tutors in a convenient Facebook-like interface. A rating system is also available in order to highlight tutors with better tutoring skills. The project is tailored for the American University of Beirut (AUB) students and hence it has features cutomized for these students; such as checking that the user's email is part of the active students at AUB, or checking that the courses offered by the tutor are valid courses in the university.
 
 # How to reproduce the project on a Windows machine
 ## Prerequisits
@@ -22,7 +22,7 @@ Below are some of the significant functionality provided by our project:
 * Having a profile for each student and tutor
 * Rating system for tutors (being rated by students)
 * Offering a news feed for users to observe how their tutors are being rated, or how their 
-* Checks if user is in the American University of Beirut (AUB) before allowing them to register.
+* Checks if student user is an American University of Beirut (AUB) active student before allowing them to register.
 * When adding a course, a tutor has to pick from a list of courses. The list is always synched with courses offerred at AUB.
 
 The complete list of features and other relevant information are found in the [documentation directory](https://github.com/samasri/educo/tree/master/Documentation)
